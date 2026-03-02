@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div id="calculator">
+    <input type="text" id="display" readonly>
+    <div class="cal-btn">
+    <section>
+        <button class="fun-btn" onclick="DeleteDisplay()">◄</button>
+        <button class="fun-btn" onclick="clearDisplay()">C</button>
+        <button class="fun-btn" onclick="ShowDisplay('%')">%</button>
+        <button class="opr-btn" onclick="ShowDisplay('/')">/</button>
+    </section>
+
+    <section>
+        <button onclick="ShowDisplay('7')">7</button>
+        <button onclick="ShowDisplay('8')">8</button>
+        <button onclick="ShowDisplay('9')">9</button>
+        <button class="opr-btn" onclick="ShowDisplay('*')">*</button>
+    </section>
+
+    <section>
+        <button onclick="ShowDisplay('4')">4</button>
+        <button onclick="ShowDisplay('5')">5</button>
+        <button onclick="ShowDisplay('6')">6</button>
+        <button class="opr-btn" onclick="ShowDisplay('-')">-</button>
+    </section>
+
+    <section>
+        <button onclick="ShowDisplay('1')">1</button>
+        <button onclick="ShowDisplay('2')">2</button>
+        <button onclick="ShowDisplay('3')">3</button>
+        <button class="opr-btn" onclick="ShowDisplay('+')">+</button>
+    </section>
+
+    <section>
+        <button>&#x1F5A9</button>
+        <button onclick="ShowDisplay('0')">0</button>
+        <button onclick="ShowDisplay('.')">.</button>
+        <button class="opr-btn" onclick="calculate('=')">=</button>
+    </section>
+    </div>
+</div>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>

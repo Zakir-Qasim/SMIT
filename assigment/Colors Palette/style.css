@@ -1,0 +1,118 @@
+body{
+    background-color: #3c40c6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.aussie{
+    height:270px;
+    width: 390px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    border-radius: 7px;
+    position: relative;
+}
+.british{
+    height:270px;
+    width: 390px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    border-radius: 7px;
+    position: relative;
+}
+.canadian{
+    height:270px;
+    width: 390px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    border-radius: 7px;
+    position: relative;
+}
+.canadian>p{
+    margin-left: -230px;
+}
+.chinese{
+    height:270px;
+    width: 390px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    border-radius: 7px;
+    position: relative;
+}
+.dutch{
+    height:270px;
+    width: 390px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    border-radius: 7px;
+    position: relative;
+}
+.french{
+    height:270px;
+    width: 390px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+    border-radius: 7px;
+    position: relative;
+}
+.upper{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lower{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-left: -250px;
+    margin-top: 13px;
+    display: flex;
+    padding-bottom: 5px;
+}
+.logo{
+    position: absolute;
+    right: 20px;
+    bottom: -5px;
+    font-weight: 600;
+}
+img{
+    height: 260px;
+    width: 365px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

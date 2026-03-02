@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Web Template</title>
+</head>
+<body>
+    <div class="bar">
+        <i style="margin-left: -1150px; font-size: 30px;" class="fa fa-bolt" aria-hidden="true"></i>
+        <div class="logo"><p>UPPER</p></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">First Gallery</a>
+            <a href="#">second</a>
+            <a href="#">Third Grid</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+
+    <div class="bottom">
+        <div class="box1">
+            <i style="font-size: 40px; margin-left: 125px;" class="fa fa-pagelines" aria-hidden="true"></i>
+            <h4 class="p">Hello Guest</h4>
+            <p>Upper HTML Template contains different background images for pages. Please check<span> Motion Template<span>. if you want to seevideo backgrounds. Fell free to download and use web templates from templatemo </p>
+        </div>
+        <div class="box2">
+            <i style="font-size: 40px; margin-left: 125px;" class="fa fa-bicycle" aria-hidden="true"></i>
+            <h4 class="p">Welcome!</h4>
+            <p>Upper HTML Template contains different background images for pages. Please check Motion Template. if you want to seevideo backgrounds. Fell free to download and use web templates from templatemo </p>
+        </div>
+        <div class="box3">
+            <i style="font-size: 40px; margin-left: 125px;" class="fa fa-plane" aria-hidden="true"></i>
+            <h4 class="p">Stay Relaxed</h4>
+            <p>Upper HTML Template contains different background images for pages. Please check Motion Template. if you want to seevideo backgrounds. Fell free to download and use web templates from templatemo </p>
+        </div>
+    </div>
+</body>
+</html>

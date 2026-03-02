@@ -1,0 +1,40 @@
+ 	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Colors Palette</title>
+</head>
+<body>
+<div class="upper">
+    <a href="./index1.html"><div class="aussie">
+        <img src="./images/image 1.png" style="border-radius: 7px;"> 
+       <p>Aussie Palette</p><p class="logo">AU</p> 
+    </div></a>
+    <a href="./index1.html"><div class="british">
+        <img src="./images/image 2.png" style="border-radius: 7px;"> 
+        <p>British Palette</p><p class="logo">GB</p> 
+    </div></a>
+    <a href="./index1.html"><div class="canadian">
+        <img src="./images/image 3.png" style="border-radius: 7px;"> 
+        <p>Canadian Palette</p><p class="logo">CA</p> 
+    </div></a>
+</div>
+
+<div class="lower">
+    <a href="./index1.html"><div class="chinese" style="border-radius: 7px;">
+        <img src="./images/image 4.png"> 
+        <p>Chinese Palette</p><p class="logo">CN</p> 
+    </div></a>
+    <a href="./index1.html"><div class="dutch">
+        <img src="./images/image 5.png" style="border-radius: 7px;">     
+        <p>Dutch Palette</p><p class="logo">NL</p> 
+    </div></a>
+    <a href="./index1.html"><div class="french">
+        <img src="./images/image 6.png" style="border-radius: 7px;"> 
+        <p>French Palette</p><p class="logo">FR</p> 
+    </div></a>
+</div>    
+</body>
+</html>

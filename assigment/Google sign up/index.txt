@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>sign up</title>
+</head>
+<body>
+     <div class="Main-box">
+        
+        <div class="left">
+            <img src="./google1.webp" class="pic">
+            <h1 class="text">Create a Google Account</h1>
+            <span class="text2">Enter your name </span>
+        </div>
+        
+        <div class="right">
+            <input type="email" class="name1" placeholder="First name" required> 
+            <input type="text" class="name2" placeholder="Last name (optional)">
+            <button class="btn">Next</button> 
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="left-footer">
+            <span>English (United States)</span>
+        </div>
+        <div class="right-footer">
+            <a href="#">Help</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+        </div>
+    </div>    
+    
+   
+</body>
+</html>
