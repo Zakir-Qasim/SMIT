@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .todo{
+            border: 1px solid black;
+            padding: 15px;
+            margin-top: 10px;
+        }
+        #todo-parent{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        #update_btn{
+            display: none;
+        }
+        .done{
+            background-color: rgb(23, 252, 76);
+            text-decoration: line-through;
+        }
+    </style>
+    
+    <script defer src="./app.js"></script>
+</head>
+<body>
+    
+    <div>
+        <input type="text" id="todoInput">
+        <button id="addBtn">add</button>
+        <button id="updateBtn"  style="display: none;">update</button>
+    </div>
+
+
+    <div id="child2">
+
+    </div>
+
+    
+    
+</body>
+</html>
